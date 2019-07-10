@@ -6,7 +6,7 @@ const style360 = {
 };
 
 
-function interactivo360() {
+function app() {
   return (
     <div className="interactivo360">
       <div className="img-container">      
@@ -18,5 +18,4 @@ function interactivo360() {
   );
 }
 
-export default interactivo360;
-
+export default app;
