@@ -1,26 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+const style360 = {
+  display: 'block'
+};
 
-function App() {
+
+function interactivo360() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="interactivo360">
+      <div className="img-container">      
+           <img id="ts" className="full" src="./img/360Compress/ts_1.jpg"/> 
+           <div id="preload-imgs" style={style360}>
+           </div>  
+        </div> 
     </div>
   );
 }
 
-export default App;
+export default interactivo360;
+
